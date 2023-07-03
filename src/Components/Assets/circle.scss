@@ -1,0 +1,19 @@
+.circles {
+  position: relative;
+  top: 70%;
+  left: 10px;
+  font-size: 20px;
+  i {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+  }
+  img {
+    width: 130px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .circles{
+    display: none;
+  }
+}

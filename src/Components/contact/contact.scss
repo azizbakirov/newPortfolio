@@ -1,0 +1,95 @@
+.contact {
+  margin-top: 10px;
+  background-color: #1d1c16;
+  color: #d4c951;
+  border-radius: 60px;
+  padding: 20px;
+
+  .card_one {
+    .title {
+      padding: 35px 0;
+      font-size: 80px;
+      width: 80%;
+      font-size-adjust: 1;
+    }
+  }
+
+  .email_link {
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+
+    .email_phone {
+        margin: 20px 0;
+      .phone {
+        display: flex;
+        gap: 15px;
+        a {
+          color: #FFF480;
+          border-radius: 50px;
+          border: 2px solid #FFF480;
+          padding: 20px 40px;
+          transition: .5s;
+
+        }
+         a:hover{
+            background-color: #FFF480;
+            color: #1d1c16;
+        }
+        
+      }
+      .social {
+        margin-top: 30px;
+        display: flex;
+        gap: 15px;
+        a {
+          color: #FFF480;
+          border-radius: 50px;
+          border: 2px solid #FFF480;
+          padding: 20px 51px;
+          transition: .5s;
+        }
+        a:hover{
+            background-color: #FFF480;
+            color: #1d1c16;
+        }
+       
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact{
+
+    .card_one{
+
+      .title{
+        font-size: 50px;
+      }
+    }
+    .email_link{
+      place-items: center;
+      width: 100%;
+      
+      .email_phone{
+
+        .phone{
+
+          a{
+          padding: 20px 20px;
+          font-size: 15px;
+
+          }
+        }
+        .social{
+
+
+          a{
+          padding: 20px 33px;
+
+          }
+        }
+      }
+    }
+  }
+}

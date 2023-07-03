@@ -1,0 +1,37 @@
+.about {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #1b1b1f;
+  border-radius: 50px;
+  padding: 70px 40px;
+  color: #a5a1ff;
+  
+  .info p {
+    font-weight: 500;
+  }
+  
+  .item_info {
+    margin-top: 40px;
+    font-size: 60px;
+    gap: 50px;
+    display: flex;
+
+  }
+}
+
+.work_item{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0 10px;
+}
+@media screen and (max-width: 600px) {
+  .work_item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .about{
+    .item_info{
+      font-size: 35px;
+    }
+  }
+}

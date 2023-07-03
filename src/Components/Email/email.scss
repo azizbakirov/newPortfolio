@@ -1,0 +1,97 @@
+form {
+  margin: 10px 0;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+
+  .forms {
+    .names {
+      display: flex;
+      gap: 10px;
+
+      input {
+        padding: 30px 60px;
+        font-size: 17px;
+        border-radius: 50px;
+        background-color: #1d1c16;
+        border: 2px solid transparent;
+        -webkit-transition: 0.5s;
+        box-sizing: border-box;
+        color: #fff480;
+        transition: 0.5s;
+        outline: none;
+      }
+      input:focus {
+        border: 2px solid #fff480;
+      }
+      input::placeholder {
+        color: #fff480;
+      }
+    }
+    .area {
+      margin-top: 10px;
+      textarea {
+        color: #fff480;
+        resize: none;
+        width: 100%;
+        padding: 30px 60px;
+        font-size: 17px;
+        border-radius: 50px;
+        background-color: #1d1c16;
+        border: 2px solid transparent;
+        -webkit-transition: 0.5s;
+        box-sizing: border-box;
+        transition: 0.5s;
+        outline: none;
+      }
+      textarea:focus {
+        border: 2px solid #fff480;
+      }
+      textarea::placeholder {
+        color: #fff480;
+      }
+    }
+  }
+  .btn {
+    display: flex;
+    place-items: center;
+    // padding: 10px 0;
+    transition: all .3s;
+    width: 100%;
+
+    button {
+      cursor: pointer;
+      width: 100%;
+      border-radius: 65px;
+      background-color: #fff480;
+      padding: 30px;
+      height: 100%;
+      border: none;
+      font-weight: 600;
+      color: #1d1c16;
+      i {
+        font-size: 20px;
+        margin: 10px 0;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  form{
+    display: block;
+
+    .forms{
+      .names{
+        display: block;
+
+        input{
+        margin: 5px 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
