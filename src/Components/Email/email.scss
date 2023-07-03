@@ -56,7 +56,7 @@ form {
     display: flex;
     place-items: center;
     // padding: 10px 0;
-    transition: all .3s;
+    transition: all 0.3s;
     width: 100%;
 
     button {
@@ -80,16 +80,17 @@ form {
   }
 }
 @media screen and (max-width: 600px) {
-  form{
+  form {
     display: block;
 
-    .forms{
-      .names{
+    .forms {
+      width: 100%;
+      .names {
         display: block;
 
-        input{
-        margin: 5px 0;
+        input {
           width: 100%;
+          margin: 5px 0;
         }
       }
     }
