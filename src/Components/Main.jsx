@@ -2,11 +2,14 @@ import React from "react";
 import "./Main.scss";
 import Lang from "./Language/Lang";
 import Work from "./Work/Work";
-import logo from './Work/logo/logo1.png'
+import logo from "./Work/logo/logo1.png";
 import Contact from "./contact/Contact";
 import Circle from "./Assets/Circle";
-import img from './image/text.jpg'
+import img from "./image/text.jpg";
 import Email from "./Email/Email";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 function Main() {
   const resurceLang = [
@@ -72,6 +75,30 @@ function Main() {
     ],
   ];
 
+  const animObj = [
+    [
+      {
+        aos: "fade-left",
+        duration: "500",
+        offset: 500,
+      },
+      {
+        aos: "fade-right",
+        duration: "500",
+      },
+    ],
+    [
+      {
+        aos: "zoom-in",
+        duration: "500",
+      },
+    ],
+  ];
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <main>
       <div className="about">
@@ -91,15 +118,15 @@ function Main() {
         </div>
       </div>
       <div className="language">
-        <Lang info={resurceLang[0]} />
-        <Lang info={resurceLang[1]} />
-        <Lang info={resurceLang[2]} />
+        <Lang anim={animObj[0]} info={resurceLang[0]} />
+        <Lang anim={animObj[0]} info={resurceLang[1]} />
+        <Lang anim={animObj[0]} info={resurceLang[2]} />
       </div>
       <div className="work">
-        <Work work={works[0]} />
+        <Work anim={animObj[1]} work={works[0]} />
         <div className="work_item ">
-          <Work work={works[2]} />
-          <Work work={works[1]} />
+          <Work anim={animObj[1]} work={works[2]} />
+          <Work anim={animObj[1]} work={works[1]} />
         </div>
       </div>
       <div className="contact">

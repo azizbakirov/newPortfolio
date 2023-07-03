@@ -1,11 +1,11 @@
 import "./work.scss";
-// import logo from "./logo/logo1.png";
 
-function Work({work}) {
+function Work({work, anim}) {
 
-  // console.log(work[0]);
+  console.log(anim);
+
   return (
-    <a href={work[0].url} target="_blank">
+    <a data-aos={anim[0].aos} href={work[0].url} target="_blank">
       <div className={`work hover_click`}>
         <div className={`main_work  ${work[0].class}`}>
           <div className="item_desc">
