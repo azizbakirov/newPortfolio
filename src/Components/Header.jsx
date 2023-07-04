@@ -41,7 +41,8 @@ function Header() {
         </div>
         <div className="temps">
           <div className="temp">
-            <div
+            <a
+              href="#work"
               onMouseEnter={() => hoverMouseWork()}
               onMouseLeave={() => hoverLeaveWork()}
               className="work hover_click"
@@ -51,8 +52,9 @@ function Header() {
                 <p>Work</p>
                 <i className="fa-solid fa-terminal"></i>
               </div>
-            </div>
-            <div
+            </a>
+            <a
+              href="#about"
               onMouseEnter={() => hoverMouseAbout()}
               onMouseLeave={() => hoverLeaveAbout()}
               className="about hover_click"
@@ -62,17 +64,19 @@ function Header() {
                 <p>About Us</p>
                 <i className="fa-regular fa-address-card"></i>
               </div>
-            </div>
+            </a>
           </div>
-          <div className="contact hover_click">
-            <div className="hover_text">
-              Contact me if you have any questions
+          <a href="#contact">
+            <div className="contact hover_click">
+              <div className="hover_text">
+                Contact me if you have any questions
+              </div>
+              <div className="item">
+                <p>Contact Us</p>
+                <i className="fa-regular fa-paper-plane"></i>
+              </div>
             </div>
-            <div className="item">
-              <p>Contact Us</p>
-              <i className="fa-regular fa-paper-plane"></i>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
     </header>

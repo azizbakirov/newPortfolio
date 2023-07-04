@@ -109,7 +109,7 @@ function Main() {
 
   return (
     <main>
-      <div data-aos={animObj[1][0].aos} className="about">
+      <div id="about" data-aos={animObj[1][0].aos} className="about">
         <div className="wrapper">
           <div className="info">
             <p>ABOUT ME</p>
@@ -130,14 +130,14 @@ function Main() {
         <Lang anim={animObj[0]} info={resurceLang[1]} />
         <Lang anim={animObj[0]} info={resurceLang[2]} />
       </div>
-      <div className="work">
+      <div className="work" id="work">
         <Work anim={animObj[1]} work={works[0]} />
         <div className="work_item ">
           <Work anim={animObj[1]} work={works[2]} />
           <Work anim={animObj[1]} work={works[1]} />
         </div>
       </div>
-      <div className="contact">
+      <div id="contact" className="contact">
         <Contact anim={animObj[1]} />
       </div>
       <div className="email_send">
