@@ -5,8 +5,8 @@ function Work({work, anim}) {
   console.log(anim);
 
   return (
-    <a data-aos={anim[0].aos} href={work[0].url} target="_blank">
-      <div className={`work hover_click`}>
+    <a href={work[0].url} target="_blank">
+      <div data-aos={anim[0].aos} className={`work hover_click`}>
         <div className={`main_work  ${work[0].class}`}>
           <div className="item_desc">
             <p>01.</p>
