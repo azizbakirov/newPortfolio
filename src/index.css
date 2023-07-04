@@ -10,7 +10,6 @@ html{
 }
 
 body {
-  overflow-x: hidden;
   scroll-behavior: smooth;
   background-color: #000;
   color: white;
@@ -18,6 +17,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 .container {
+  overflow-x: hidden;
   margin: 0 auto;
   width: 98%;
 }
