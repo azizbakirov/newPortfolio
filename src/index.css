@@ -12,6 +12,7 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 .container {
   margin: 0 auto;
