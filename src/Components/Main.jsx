@@ -93,6 +93,12 @@ function Main() {
         duration: "500",
       },
     ],
+    [
+      {
+        aos: "fade-in",
+        duration: "500",
+      },
+    ],
   ];
 
   useEffect(() => {
@@ -123,7 +129,7 @@ function Main() {
         <Lang anim={animObj[0]} info={resurceLang[2]} />
       </div>
       <div className="work">
-        <Work anim={animObj[1]} work={works[0]} />
+        <Work anim={animObj[2]} work={works[0]} />
         <div className="work_item ">
           <Work anim={animObj[1]} work={works[2]} />
           <Work anim={animObj[1]} work={works[1]} />
