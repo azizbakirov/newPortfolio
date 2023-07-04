@@ -105,9 +105,11 @@ function Main() {
     AOS.init();
   }, []);
 
+  console.log(animObj);
+
   return (
     <main>
-      <div className="about">
+      <div data-aos={animObj[1][0].aos} className="about">
         <div className="wrapper">
           <div className="info">
             <p>ABOUT ME</p>
@@ -136,7 +138,7 @@ function Main() {
         </div>
       </div>
       <div className="contact">
-        <Contact />
+        <Contact anim={animObj[1]} />
       </div>
       <div className="email_send">
         <Email />

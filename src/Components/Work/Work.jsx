@@ -2,7 +2,6 @@ import "./work.scss";
 
 function Work({work, anim}) {
 
-  console.log(anim);
 
   return (
     <a href={work[0].url} target="_blank">

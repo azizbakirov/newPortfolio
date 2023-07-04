@@ -2,9 +2,9 @@ import "./contact.scss";
 import Circle from "../Assets/Circle";
 import img1 from "../image/text1.png";
 
-function Contact() {
+function Contact({anim}) {
   return (
-    <div className="contact">
+    <div data-aos={anim[0].aos} className="contact">
       <div className="card_one">
         <div className="info">
           <p>GET IN TOUCH!</p>
