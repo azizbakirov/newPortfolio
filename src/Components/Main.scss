@@ -1,4 +1,6 @@
 .about {
+  overflow-x: hidden;
+
   margin-top: 10px;
   width: 100%;
   background-color: #1b1b1f;
@@ -20,6 +22,7 @@
 }
 
 .work_item{
+
   display: grid;
   grid-template-columns: auto auto;
   gap: 0 10px;
