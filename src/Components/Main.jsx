@@ -10,40 +10,40 @@ import Email from "./Email/Email";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import Todo from "../Components/image/todo.png"
+import Weather from "../Components/image/weather.png";
+import port from "../Components/image/port.png";
 
 function Main() {
   const resurceLang = [
     [
       {
         icon: "fa-brands fa-react",
-        title: "Lorem ipsum ",
-        info: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit ametLorem ipsum dolor sit amet",
+        title: "React JS",
+        info: "React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video.",
       },
       {
-        title: "lorem",
-        info: "Lorem ipsum dolor sit amet.",
+        info: "React Javasript librariy",
       },
     ],
     [
       {
         icon: "fa-brands fa-square-js",
-        title: "Lorem ipsum ",
-        info: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit ametLorem ipsum dolor sit amet",
+        title: "JavaScript (JS)",
+        info: "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions.",
       },
       {
-        title: "lorem",
-        info: "Lorem ipsum dolor sit amet.",
+        info: "Language",
       },
     ],
     [
       {
         icon: "fa-brands fa-sass",
-        title: "Lorem ipsum ",
-        info: "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit ametLorem ipsum dolor sit amet",
+        title: "SASS (css)",
+        info: "Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.",
       },
       {
-        title: "lorem",
-        info: "Lorem ipsum dolor sit amet.",
+        info: "CSS with superpowers",
       },
     ],
   ];
@@ -52,25 +52,25 @@ function Main() {
     [
       {
         class: "white",
-        logo: logo,
-        name: "Weather",
-        url: "google.com",
+        logo: Todo,
+        name: "Todo List",
+        url: "https://todouzweb.netlify.app/",
       },
     ],
     [
       {
         class: "green_old",
-        logo: logo,
-        name: "Weather",
-        url: "google.com",
+        logo: port,
+        name: "Portfolio",
+        url: "https://azizbakirov.netlify.app/",
       },
     ],
     [
       {
         class: "green",
-        logo: logo,
+        logo: Weather,
         name: "Weather",
-        url: "google.com",
+        url: "https://weatherruz.netlify.app/",
       },
     ],
   ];

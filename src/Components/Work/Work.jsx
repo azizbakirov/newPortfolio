@@ -2,6 +2,11 @@ import "./work.scss";
 
 function Work({work, anim}) {
 
+  let width = work[0].with;
+
+
+  console.log(width);
+
 
   return (
     <a href={work[0].url} target="_blank">
@@ -12,7 +17,10 @@ function Work({work, anim}) {
             <p>Feture</p>
           </div>
           <div className="logo_work">
-            <img src={work[0].logo} alt="logos" />
+           <div className="photo">
+             <img  src={work[0].logo}  />
+             <p>{work[0].title}</p>
+           </div>
           </div>
           <div className="item_info">
             <p>{work[0].name}</p>

@@ -1,7 +1,6 @@
 a {
   text-decoration: none;
-
-
+  
   .work {
     transition: all 0.3s ease;
     .main_work {
@@ -20,10 +19,17 @@ a {
       .logo_work {
         display: flex;
         padding: 60px;
+        width: 100%;
         justify-content: center;
-        text-align: center;
-        img {
+        place-items: center;
+        height: 200px;
+        
+        .photo{
+          img {
           width: 200px;
+          // width: 100%;
+        }
+      
         }
       }
 
