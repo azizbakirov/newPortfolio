@@ -12,6 +12,14 @@ footer {
         width: 100%;
       }
     }
+    .sv{
+      text-decoration: none;
+      color: white;
+      transition: .3s;
+    }
+    .sv:hover{
+      color: #78f3e2;
+    }
   }
 }
 @media screen and (max-width: 600px) {

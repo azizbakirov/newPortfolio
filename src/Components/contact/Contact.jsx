@@ -15,13 +15,25 @@ function Contact({anim}) {
         <div className="email_link">
           <div className="email_phone">
             <div className="phone">
-              <a href="">azizbakirov9@gmail.com</a>
-              <a href="">+998 (99) 868 - 78 - 45</a>
+              <a href="mailto:azizbakirov9@gmail.com" target="_blank">azizbakirov9@gmail.com</a>
+              <a href="tel:+998998687845" target="_blank">+998 (99) 868 - 78 - 45</a>
             </div>
             <div className="social">
-              <a href="">Instagram</a>
-              <a href="">Telegram</a>
-              <a href="">Linkedln</a>
+              <a
+                href="https://www.instagram.com/azizoficiall_/"
+                target="_blank"
+              >
+                Instagram
+              </a>
+              <a href="https://t.me/azizbakirov" target="_blank">
+                Telegram
+              </a>
+              <a
+                href="https://www.linkedin.com/in/aziz-bakirov-742018243/"
+                target="_blank"
+              >
+                Linkedln
+              </a>
             </div>
           </div>
           <Circle img={img1} />

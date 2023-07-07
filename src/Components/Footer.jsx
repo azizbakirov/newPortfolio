@@ -1,5 +1,6 @@
 import "./footer.scss"
 import logo from './image/logo.png'
+import SV from "../Files/Aziz.pdf"
 
 function Footer() {
   return (
@@ -11,7 +12,7 @@ function Footer() {
         <div className="copright">
           <p>Copyright © 2023</p>
         </div>
-        <div className="sv">My RESUME</div>
+        <a href={SV} target="_blank" download={"Resume Aziz"} className="sv">My RESUME</a>
       </div>
     </footer>
   );

@@ -13,20 +13,22 @@ a {
 
       .item_desc {
         display: flex;
-        justify-content: space-between;
+        justify-content: end;
       }
 
       .logo_work {
         display: flex;
-        padding: 60px;
-        width: 100%;
+        padding: 9%;
         justify-content: center;
         place-items: center;
-        height: 200px;
-        
+        height: 220px;
+
         .photo{
-          img {
+          display: flex;
+          justify-content: center;
           width: 200px;
+          img {
+          width: 80%;
           // width: 100%;
         }
       
@@ -66,14 +68,18 @@ a {
 @media screen and (max-width: 600px) {
   a {
     .work {
-      width: 100%;
+      // width: 100%;
 
       .main_work {
-        height: 100%;
-        width: 100%;
+        // width: 100%;
         .logo_work {
-          img {
-            width: 190px;
+         
+          .photo{
+            // width: 250px;
+             img {
+            // width: 100%;
+            // width: 190px;
+          }
           }
         }
       }

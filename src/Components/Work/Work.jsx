@@ -13,7 +13,6 @@ function Work({work, anim}) {
       <div className={`work hover_click`}>
         <div data-aos={anim[0].aos} className={`main_work  ${work[0].class}`}>
           <div className="item_desc">
-            <p>01.</p>
             <p>Feture</p>
           </div>
           <div className="logo_work">
