@@ -89,7 +89,7 @@ function Main() {
         class: "green",
         logo: Trello,
         name: "Trello Cloning",
-        url: "https://thegallerys.netlify.app",
+        url: "https://trelloclon.netlify.app/",
       },
     ],
   ];
