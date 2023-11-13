@@ -29,8 +29,8 @@ function Header() {
           <div className="title">
             <div className="marquee">
               <div>
-                <span>Hi, I am Aziz Bakirov Frontend developer. </span>
-                <span>Hi, I am Aziz Bakirov Frontend developer. </span>
+                <marque>Hi, I am Aziz Bakirov Frontend developer. </marque>
+                {/* <span>Hi, I am Azi`z Bakirov Frontend developer. </span> */}
               </div>
             </div>
           </div>

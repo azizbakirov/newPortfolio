@@ -3,6 +3,8 @@ header {
     display: flex;
     justify-content: space-between;
     transition: all 0.3s ease;
+    width: 100%;
+    height: 100%;
 
     .my_info {
       height: 100%;
@@ -24,7 +26,6 @@ header {
         }
       }
       .title {
-        // padding: 32px 0;
         height: 100%;
         .marquee {
           height: 140px;

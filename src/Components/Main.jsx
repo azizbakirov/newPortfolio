@@ -13,6 +13,8 @@ import { useEffect } from "react";
 import Todo from "../Components/image/todo.png"
 import Weather from "../Components/image/weather.png";
 import port from "../Components/image/port.png";
+import Gallery from "./Assets/logo/THE GALLERY.png"
+import Trello from "./Assets/logo/Trello.png"
 
 function Main() {
   const resurceLang = [
@@ -46,6 +48,7 @@ function Main() {
         info: "CSS with superpowers",
       },
     ],
+    
   ];
 
   const works = [
@@ -71,6 +74,22 @@ function Main() {
         logo: Weather,
         name: "Weather",
         url: "https://weatherruz.netlify.app/",
+      },
+    ],
+    [
+      {
+        class: "white",
+        logo: Gallery,
+        name: "THE GALLERY",
+        url: "https://thegallerys.netlify.app",
+      },
+    ],
+    [
+      {
+        class: "green",
+        logo: Trello,
+        name: "Trello Cloning",
+        url: "https://thegallerys.netlify.app",
       },
     ],
   ];
@@ -135,6 +154,8 @@ function Main() {
         <div className="work_item ">
           <Work anim={animObj[1]} work={works[2]} />
           <Work anim={animObj[1]} work={works[1]} />
+          <Work anim={animObj[1]} work={works[3]} />
+          <Work anim={animObj[1]} work={works[4]} />
         </div>
       </div>
       <div id="contact" className="contact">

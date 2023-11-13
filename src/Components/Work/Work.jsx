@@ -2,10 +2,6 @@ import "./work.scss";
 
 function Work({work, anim}) {
 
-  let width = work[0].with;
-
-
-  console.log(width);
 
 
   return (
